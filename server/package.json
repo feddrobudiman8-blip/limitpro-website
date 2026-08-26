@@ -4,6 +4,7 @@
   "description": "Backend LimitPro Website",
   "main": "server.js",
   "scripts": {
+    "build": "npm rebuild sqlite3 --build-from-source",
     "start": "node server.js"
   },
   "author": "",
